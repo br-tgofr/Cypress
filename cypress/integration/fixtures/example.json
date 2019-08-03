@@ -1,0 +1,23 @@
+{
+  "valid" : {
+    "url" : "http://seubarriga.wcaquino.me",
+    "email" : "thiago.grespi90@gmail.com",
+    "pass" : "123456",
+    "welcomeMessage" : "Bem vindo, Thiago!"
+  },
+
+  "invalid" : {
+    "url" : "http://seubarriga.wcaquino.me",
+    "email" : "thiago.grespi90@gmail.com",
+    "pass" : "invalid_pass",
+    "errorMessageIncorrectCredentials" : "Problemas com o login do usuário"
+  },
+
+  "allEmpty" : {
+    "url" : "http://seubarriga.wcaquino.me",
+    "email" : "",
+    "pass" : "",
+    "errorMessageEmailRequired" : "Email é um campo obrigatório",
+    "errorMessageSenhaRequired" : "Senha é um campo obrigatório"
+  }
+}
